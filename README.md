@@ -1,1 +1,0 @@
-YeelightCPPAPI.d
