@@ -1,0 +1,2 @@
+# YeelightCPPAPI
+Yeelight C++ API
