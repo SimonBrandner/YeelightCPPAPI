@@ -1,6 +1,8 @@
 #include <QString>
 #include <QTcpSocket>
 #include <QTimer>
+#include <cmath>
+#include <iostream>
 
 namespace YeelightAPI {
 
@@ -18,8 +20,12 @@ class Bulb
         bool TestConnection(); //Test connection member function
 
         // Member functions
-        bool PowerOn();
-        bool PowerOff();
+        bool SetColorTemperature(int temperature, QString effect, int duration);
+        bool SetRGB(int red, int green, int blue, QString effect, int duration);
+        bool SetHSV(int hue, int sat, QString effect, int duration);
+        bool SetBrightness(int brightness, QString effect, int duration);
+        bool SetPower(bool power, QString effect, int duration);
         bool Toggle();
+        bool SetDefault();
         // Member functions
 };}
