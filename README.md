@@ -8,7 +8,7 @@ git clone https://github.com/SimonBrandner/YeelightCPPAPI
 ```
 + Install Qt
 
-## New project
+## Making new project
 + Install Qt Creator
 + Create new project in the Qt Creator
 + Add this to your .pro file: `QT += network`

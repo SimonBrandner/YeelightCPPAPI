@@ -21,7 +21,7 @@ SOURCES += \
         main.cpp
 
 INCLUDEPATH += "../YeelightCPPAPI/"
-LIBS += "/home/simon/GIT/SmartHome/YeelightCPPAPI/YeelightCPPAPI/build/libYeelightCPPAPI.a"
+LIBS += "/home/simon/GITLink/SmartHome/YeelightCPPAPI/YeelightCPPAPI/build/libYeelightCPPAPI.a"
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
